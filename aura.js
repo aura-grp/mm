@@ -76,11 +76,6 @@ window.addEventListener("load", () => {
 
 
 const lenis = new Lenis()
-const lenis = new Lenis({
-  smooth: true,
-  smoothTouch: true // <- important for mobile
-});
-
 
 function raf(time){
   lenis.raf(time)
